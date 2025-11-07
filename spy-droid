@@ -52,7 +52,7 @@ function checkinternet()
     echo -e $yellow " Checking For Internet: ${LighGreenF}CONNECTED"
   fi
 }
-checkinternet
+#checkinternet  # Bypassed for testing
 sleep 2
 #Define options
 path=`pwd`
